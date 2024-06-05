@@ -26,8 +26,8 @@ export const authOptions = {
     //   },
     // }),
     InstagramProvider({
-      clientId: process.env.INSTAGRAM_ID,
-      clientSecret: process.env.INSTAGRAM_SECRET,
+      clientId: process.env.AUTH_INSTAGRAM_ID,
+      clientSecret: process.env.AUTH_INSTAGRAM_SECRET,
       // async profile(profile) {
       //   console.log("instagram profile", profile )
       //   return {
